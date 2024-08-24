@@ -1,0 +1,39 @@
+/* Combinaciones */
+#main-header h1 {
+    color: navy;
+    text-align: center;
+}
+
+.container .content p.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.container .content p.highlight.special {
+    background-color: orange;
+    color: white;
+}
+
+ul.item-list li.item.important {
+    color: red;
+    font-style: italic;
+}
+
+/* Casos múltiples */
+ul.item-list li.item,
+ul.item-list li.important {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+div.footer a.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+div.footer a.btn.active {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.news-section, .reviews-section {
+    padding: 40px 20px;
+}
+
+.news-grid, .reviews-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.news-item, .review-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .news-grid, .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .news-grid, .reviews-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

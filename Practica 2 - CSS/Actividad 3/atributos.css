@@ -1,0 +1,23 @@
+
+input[type="text"] {
+    border: 2px solid rgb(88, 193, 64);
+}
+
+a[target="_blank"] {
+    color: red;
+    text-decoration: none;
+}
+
+img[alt] {
+    border: 5px solid green;
+}
+
+input[placeholder] {
+    font-style: italic;
+    color: gray;
+}
+
+button[disabled] {
+    background-color: lightgray;
+    color: darkgray;
+}

@@ -1,0 +1,22 @@
+/* Selectores Regex */
+[class^="code-"] {
+    color: blue;
+    font-weight: bold;
+}
+
+[class$="-123"] {
+    background-color: lightgray;
+}
+
+[class*="456"] {
+    text-decoration: underline;
+}
+
+[class*="789"] {
+    font-style: italic;
+}
+
+[class*="number-"] {
+    border: 1px solid black;
+    padding: 5px;
+}

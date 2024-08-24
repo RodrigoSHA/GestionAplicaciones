@@ -1,0 +1,36 @@
+
+a:link {
+    color: rgb(235, 85, 15);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+p:nth-child(2) {
+    color: green;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:checked {
+    background-color: yellow;
+}
