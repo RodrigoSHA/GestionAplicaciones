@@ -1,0 +1,46 @@
+header{
+	width: 1000px;
+	margin: auto;
+}
+
+body{
+	background: whitesmoke;
+}
+
+main{
+	margin: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+section{
+	
+	border: 2px solid green;
+	background: lightgreen;
+
+}
+
+p{
+	margin: 2px;
+	background: silver;
+}
+
+article{
+
+	border: 2px solid gold;
+	display: flex;
+	flex-direction: column;
+	background: lightyellow;
+}
+
+li{
+	color: red;
+}
+
+aside{
+
+	color: white;
+	display: inline-block;
+	border: 2px solid black;
+	background: gray;
+}

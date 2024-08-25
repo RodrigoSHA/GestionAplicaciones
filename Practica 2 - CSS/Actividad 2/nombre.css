@@ -1,0 +1,62 @@
+#encabezado{
+	width: 1000px;
+	margin: auto;
+}
+
+#cuerpo{
+	background: whitesmoke;
+}
+
+#aparte{
+	color: white;
+	display: inline-block;
+	border: 2px solid black;
+	background: gray;
+}
+
+#principal{
+	margin: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+#seccion1{
+	
+	border: 2px solid green;
+	background: lightgreen;
+
+}
+
+#seccion2{
+	
+	border: 2px solid green;
+	background: lightgreen;
+
+}
+
+#articulo1{
+
+	border: 2px solid gold;
+	display: flex;
+	flex-direction: column;
+	background: lightyellow;
+}
+#articulo2{
+
+	border: 2px solid gold;
+	display: flex;
+	flex-direction: column;
+	background: lightyellow;
+}
+#articulo3{
+
+	border: 2px solid gold;
+	display: flex;
+	flex-direction: column;
+	background: lightyellow;
+}
+
+#piepagina{
+	margin: 2px;
+	background: silver;
+}
