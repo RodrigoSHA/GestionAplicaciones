@@ -1,0 +1,46 @@
+.encabezado{
+	width: 1000px;
+	margin: auto;
+}
+
+.cuerpo{
+	background: whitesmoke;
+}
+
+.principal{
+	margin: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.seccion{
+	
+	border: 2px solid green;
+	background: lightgreen;
+
+}
+
+.parrafo{
+	margin: 2px;
+	background: silver;
+}
+
+.articulo{
+
+	border: 2px solid gold;
+	display: flex;
+	flex-direction: column;
+	background: lightyellow;
+}
+
+.item{
+	color: red;
+}
+
+.aparte{
+
+	color: white;
+	display: inline-block;
+	border: 2px solid black;
+	background: gray;
+}

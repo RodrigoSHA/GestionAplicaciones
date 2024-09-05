@@ -1,0 +1,68 @@
+.encabezado{
+	width: 1000px;
+	margin: auto;
+}
+
+.cuerpo{
+	background: whitesmoke;
+}
+
+.principal{
+	margin: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.seccion{
+	
+	border: 2px solid green;
+	background: lightgreen;
+	animation-name: animacion1;
+	animation-duration: 3s;
+
+}
+
+.parrafo{
+	margin: 2px;
+	background: silver;
+}
+
+.articulo{
+
+	border: 2px solid gold;
+	display: flex;
+	flex-direction: column;
+	background: lightyellow;
+	transition: background-color 1s;
+	animation-name: animacion1;
+	animation-duration: 2s;
+}
+
+.articulo:hover{
+	background-color: lightblue;
+}
+
+.item{
+	color: red;
+}
+
+.aparte{
+
+	color: white;
+	display: inline-block;
+	border: 2px solid black;
+	background: gray;
+	animation-name: animacion1;
+	animation-duration: 3s;
+}
+
+@keyframes animacion1{
+	from{
+		opacity: 0;
+		scale: 25%;
+	}
+	to{
+		opacity: 1;
+		scale: 100%;
+	}
+}
