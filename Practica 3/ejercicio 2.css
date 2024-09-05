@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 5em;
+    text-align: center;
+}
+
+h1 {
+    font-size:medium;
+}
+
+h2 {
+    font-size:xx-large;
+}
+
+
+button {
+    background-color: gray;
+    font-size: medium;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+div {
+    border: solid rgb(161, 149, 149);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.card {
+    flex-grow: 1;
+    max-width: 30%;
+    background-color: #fff;
+    padding: 2em;
+    margin: 1em;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 1em;
+}
+
+.card img {
+    width: 58%;
+    margin-bottom: 1em;
+}
+
+/* Breakpoints */
+@media (max-width: 900px) {
+    .card {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        max-width: 100%; 
+        margin: 0.5em; 
+    }
+}
